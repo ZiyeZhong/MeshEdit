@@ -1,0 +1,1458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		183A407C28684346B147334E /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 39426EA8337043909D8F2523 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				363A3C0CB291417DB865BB6E /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				2B81DD1D37C84957A8B4E682 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		741E40C5C1C44B2AAFDBA6F0 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 80B4924C7AA04B55A96B757E /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				A346C433895840C3B3183FB9 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		86C663DC2D6B46A6AAED8B44 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0152CD47066442D0A7693656 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1A0DA98A506340E4A79C8121 /* CMake Rules */,
+			);
+			dependencies = (
+				19745BCBE79E44AFB085F79C /* PBXTargetDependency */,
+				DD8DD5E71E0B4D789D586CFE /* PBXTargetDependency */,
+				AE343C3B9CD2427F955E449F /* PBXTargetDependency */,
+				2E34FC7C42224E37AC59A162 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		A422801062694BE88604EBCE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B7606E004CCD4AFFAF33FBA2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				3B13A926D50144C0B5E9E005 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0280B65BB6B4433789FF4514 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/complex.cpp */ = {isa = PBXBuildFile; fileRef = 8FDE9AC11C1440F8BFD95300 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/complex.cpp */; };
+		0A8B1F5AFA3B426788B8A923 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/src/visualinfo.c */ = {isa = PBXBuildFile; fileRef = 4D6E1FAB58F841E4A73967AB /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/src/visualinfo.c */; };
+		0E9BEC21FC12457093E23353 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E0DC323BDC574E97AF3329E8 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/CMakeLists.txt */; };
+		10DCDC5090D4437B987D6982 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector3D.h */ = {isa = PBXBuildFile; fileRef = D4960B516CF44CE781AA2816 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector3D.h */; };
+		13F2F2C2B7A9447FAEE021A9 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 35FB2BC0ADFB4C2FB12024C0 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/CMakeLists.txt */; };
+		14E9FCF3E9B7422A9DFB0B2C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = B8706871BD9F4AF58DA37F25 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/nsgl_context.m */; };
+		1EBAC335AA624798B8EF106D /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 015BB774DA9B44D7A929A996 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/nsgl_context.h */; };
+		1FF289B0C530443393825A27 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = 818955102FCD4E2DBB5729D0 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/posix_tls.c */; };
+		211D8B92ED59452FBB77EE05 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/mach_time.c */ = {isa = PBXBuildFile; fileRef = 03C2C2AF320F44FF80E21D61 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/mach_time.c */; };
+		22E637943BBC4A2194ECC8E6 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/base64.cpp */ = {isa = PBXBuildFile; fileRef = 1D238AC04C1A4D038B671E9F /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/base64.cpp */; };
+		2407D913A25E4CFFBD3F9E5C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdtext.cpp */ = {isa = PBXBuildFile; fileRef = 4019CAB75AD04C0A8525E1DA /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdtext.cpp */; };
+		28531F69CBB24AB6904D6005 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/quaternion.cpp */ = {isa = PBXBuildFile; fileRef = FC18046D3F264F659CB14A1E /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/quaternion.cpp */; };
+		347BF94051FA412F93AE2962 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = C99D0FC5A2EA4BBA9CD9C810 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_window.m */; };
+		37A767E1F11B4E57B3196289 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/quaternion.h */ = {isa = PBXBuildFile; fileRef = FDF2A882185F4D718E4287CA /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/quaternion.h */; };
+		3955CF921DC348D4ABF9D54F /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdfont.cpp */ = {isa = PBXBuildFile; fileRef = 7505E20C108043A28335138F /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdfont.cpp */; };
+		39A092B3EB6447F9B27E5992 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/CGL.h */ = {isa = PBXBuildFile; fileRef = 18EF3C72DD214D04957EB890 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/CGL.h */; };
+		3C1902C519DB4EDCB8F201E8 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 6B4E76EDBEFA4651B28BB9AF /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/internal.h */; };
+		3D839DC9B05348E5ADE53CB6 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/iokit_joystick.m */ = {isa = PBXBuildFile; fileRef = 2E7D2B2EBC1D43B9AFD4E8A6 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/iokit_joystick.m */; };
+		440677FDDC9D44CEAA97B704 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/renderer.h */ = {isa = PBXBuildFile; fileRef = 79DC1721541E4281965C16DB /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/renderer.h */; };
+		509DF47C9E6440E08ACE5F71 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/iokit_joystick.h */ = {isa = PBXBuildFile; fileRef = E73E2E85E05D4A8CA875BA86 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/iokit_joystick.h */; };
+		51E66BB678C24691B041A709 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 4C02E290CFCA485994ED3CBF /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/input.c */; };
+		52FA7E60EB1C4F5287FA49AC /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 0ACCE2897F214F3F85246484 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_platform.h */; };
+		537CDEDCF69B4D8E8D61FA2C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/src/glew.c */ = {isa = PBXBuildFile; fileRef = A682F716D0DC46099D562329 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/src/glew.c */; };
+		5549E3340087408A91070259 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/color.h */ = {isa = PBXBuildFile; fileRef = 148B2AA051B04A62824695D9 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/color.h */; };
+		6FACF3556D6B46F38FD1423A /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = D8D4500F262A4A28A12E6045 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/include/GLFW/glfw3.h */; };
+		72AD74F731D44754836BFB0C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/complex.h */ = {isa = PBXBuildFile; fileRef = 5A83BDD43DA646CF8E10283A /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/complex.h */; };
+		735871ECC24F426BB1F62FBE /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = 8201740F6A9F462389C471F2 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/tinyxml2.cpp */; };
+		7EE57D9695044D14B9D7B289 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector4D.h */ = {isa = PBXBuildFile; fileRef = 1874E6F69D124C66896220A6 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector4D.h */; };
+		8046D01F118F42C1AD065761 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = BA60CA3F2C9746198C82372A /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/window.c */; };
+		858D84A8672B4EB183EF9B67 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector4D.cpp */ = {isa = PBXBuildFile; fileRef = 91927DD5A19B450C91351AE1 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector4D.cpp */; };
+		8F23DCA7D6FF41609ACF716E /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix3x3.cpp */ = {isa = PBXBuildFile; fileRef = C18F3EC61FB948928B94B71D /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix3x3.cpp */; };
+		9314513AF55A44B28F585B1C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/base64.h */ = {isa = PBXBuildFile; fileRef = 1220E9175A23496087F5B074 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/base64.h */; };
+		9ECC3CB2D47247498CDFDE4F /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 9B8A058882CE403B9C070396 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/monitor.c */; };
+		A0B1DA8BD9984553A66C1212 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector2D.h */ = {isa = PBXBuildFile; fileRef = EED7D1825AF64522B187557C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector2D.h */; };
+		A6514440341147DB95A0003B /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = 55983D3813A048299E68A35E /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/context.c */; };
+		AD3250DDCEC34175A4415EC0 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdtext.h */ = {isa = PBXBuildFile; fileRef = 5E5D3514A5E747B795B18104 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdtext.h */; };
+		B234F446F8654A9D805010A9 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = CE89590E307641B09F9526A0 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/include/GLFW/glfw3native.h */; };
+		B38AE5DB897C477DA6F7E604 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix4x4.h */ = {isa = PBXBuildFile; fileRef = 95EA99C6DDE94379B43DABBD /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix4x4.h */; };
+		B6827D38893F4781853EFB7C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = E8F995BE067B4FCDA6B005CB /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_monitor.m */; };
+		CE71ABCF12454E35A2FA0BA9 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/viewer.h */ = {isa = PBXBuildFile; fileRef = C6D9078F70AF464C94246D8C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/viewer.h */; };
+		D31A0F8E46EC466689217166 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix3x3.h */ = {isa = PBXBuildFile; fileRef = 5EDA294C30ED4687A6AB40B5 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix3x3.h */; };
+		D8D732BC6F454C06A925B7B2 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 93D6D5558CCE4F23B6498C85 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_init.m */; };
+		DED699D42A2E4D6FABAD318D /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix4x4.cpp */ = {isa = PBXBuildFile; fileRef = 6C6CBC3C008D454D9698D914 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix4x4.cpp */; };
+		E87629D1A66A4869B79180EE /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = E3E94882E4D346ECAA34D512 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/posix_tls.h */; };
+		EB1685221A2841128D3A7AA0 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/tinyxml2.h */ = {isa = PBXBuildFile; fileRef = ED01E22D80EF461BBF33EB4B /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/tinyxml2.h */; };
+		EC3325EF954D4A8DBC3B8CFA /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/viewer.cpp */ = {isa = PBXBuildFile; fileRef = 29D9E6F2BAD643A4B4E29D35 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/viewer.cpp */; };
+		EF05FD4E8848465D9D8A466F /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = FB39ABE570EB4A11BB868254 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/init.c */; };
+		F128CA0A45924FB3AE0A32F1 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/src/glewinfo.c */ = {isa = PBXBuildFile; fileRef = 1C8DFD2B48A14F54B7E04E52 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/src/glewinfo.c */; };
+		F2382F5F71644001B9951E5C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/color.cpp */ = {isa = PBXBuildFile; fileRef = 79EDDCA4870949CE9D4218E7 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/color.cpp */; };
+		F310443888224A62B4B75F7E /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 4C2D51B36D0A4005BD233D8E /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw/src/glfw_config.h */; };
+		F38FE4C80FFF4D8AA7D890F4 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 63BC1FE354A44EC191B12D6C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/CMakeLists.txt */; };
+		F6B2660217EF41B58C25A75E /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector2D.cpp */ = {isa = PBXBuildFile; fileRef = 992910F9B78F4591AF51D3A7 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector2D.cpp */; };
+		FCE19BE440654D98B8E143E0 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector3D.cpp */ = {isa = PBXBuildFile; fileRef = 7F5F50B7E79346F1B63E0133 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector3D.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		14BCB27F697D4565AC5D26E4 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		7566785F9DED42F386CF4F27 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		83BD9EE05C3445F3B40F869A /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		EFB015962BBE4B3B95DF7F86 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		3C4F4850654B4BAB889ECF48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D548449C2CF74D19A738F8FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C02BC232D04644BAF98324;
+			remoteInfo = glew;
+		};
+		5705AA1D8CB248D4ACDA613A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D548449C2CF74D19A738F8FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A422801062694BE88604EBCE;
+			remoteInfo = ZERO_CHECK;
+		};
+		A0C037C2E20C4BC280446135 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D548449C2CF74D19A738F8FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AB8B454E3B04684BDCA4480;
+			remoteInfo = glfw;
+		};
+		A560EAB1AA2141569881E97A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D548449C2CF74D19A738F8FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DB8AD675CB14DCE813703D1;
+			remoteInfo = CGL;
+		};
+		A7BDA7C14B924FC08E7CDD6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D548449C2CF74D19A738F8FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C02BC232D04644BAF98324;
+			remoteInfo = glew;
+		};
+		FC1A87B414DE42A5A70D8323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D548449C2CF74D19A738F8FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86C663DC2D6B46A6AAED8B44;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015BB774DA9B44D7A929A996 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = deps/glfw/src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		03C2C2AF320F44FF80E21D61 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/mach_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mach_time.c; path = deps/glfw/src/mach_time.c; sourceTree = SOURCE_ROOT; };
+		0ACCE2897F214F3F85246484 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = deps/glfw/src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		1220E9175A23496087F5B074 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/base64.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = base64.h; path = src/base64.h; sourceTree = SOURCE_ROOT; };
+		148B2AA051B04A62824695D9 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/color.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = color.h; path = src/color.h; sourceTree = SOURCE_ROOT; };
+		1874E6F69D124C66896220A6 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector4D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vector4D.h; path = src/vector4D.h; sourceTree = SOURCE_ROOT; };
+		18EF3C72DD214D04957EB890 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/CGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CGL.h; path = src/CGL.h; sourceTree = SOURCE_ROOT; };
+		1C8DFD2B48A14F54B7E04E52 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/src/glewinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glewinfo.c; path = deps/glew/src/glewinfo.c; sourceTree = SOURCE_ROOT; };
+		1D238AC04C1A4D038B671E9F /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/base64.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = base64.cpp; path = src/base64.cpp; sourceTree = SOURCE_ROOT; };
+		29D9E6F2BAD643A4B4E29D35 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/viewer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = viewer.cpp; path = src/viewer.cpp; sourceTree = SOURCE_ROOT; };
+		2E7D2B2EBC1D43B9AFD4E8A6 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/iokit_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = iokit_joystick.m; path = deps/glfw/src/iokit_joystick.m; sourceTree = SOURCE_ROOT; };
+		35FB2BC0ADFB4C2FB12024C0 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = deps/glfw/src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3D52F176F0DA4E0E86291AC6 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = deps/glfw/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4019CAB75AD04C0A8525E1DA /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdtext.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = osdtext.cpp; path = src/osdtext.cpp; sourceTree = SOURCE_ROOT; };
+		4C02E290CFCA485994ED3CBF /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = deps/glfw/src/input.c; sourceTree = SOURCE_ROOT; };
+		4C2D51B36D0A4005BD233D8E /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = ../xcode/CGL/deps/glfw/src/glfw_config.h; sourceTree = SOURCE_ROOT; };
+		4D6E1FAB58F841E4A73967AB /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/src/visualinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = visualinfo.c; path = deps/glew/src/visualinfo.c; sourceTree = SOURCE_ROOT; };
+		55983D3813A048299E68A35E /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = deps/glfw/src/context.c; sourceTree = SOURCE_ROOT; };
+		5A83BDD43DA646CF8E10283A /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/complex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = complex.h; path = src/complex.h; sourceTree = SOURCE_ROOT; };
+		5E5D3514A5E747B795B18104 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdtext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osdtext.h; path = src/osdtext.h; sourceTree = SOURCE_ROOT; };
+		5EDA294C30ED4687A6AB40B5 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix3x3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = matrix3x3.h; path = src/matrix3x3.h; sourceTree = SOURCE_ROOT; };
+		63BC1FE354A44EC191B12D6C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = deps/glew/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6B4E76EDBEFA4651B28BB9AF /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = deps/glfw/src/internal.h; sourceTree = SOURCE_ROOT; };
+		6C6CBC3C008D454D9698D914 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix4x4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matrix4x4.cpp; path = src/matrix4x4.cpp; sourceTree = SOURCE_ROOT; };
+		7505E20C108043A28335138F /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdfont.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = osdfont.cpp; path = src/osdfont.cpp; sourceTree = SOURCE_ROOT; };
+		79DC1721541E4281965C16DB /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/renderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = renderer.h; path = src/renderer.h; sourceTree = SOURCE_ROOT; };
+		79EDDCA4870949CE9D4218E7 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/color.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = color.cpp; path = src/color.cpp; sourceTree = SOURCE_ROOT; };
+		7F5F50B7E79346F1B63E0133 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector3D.cpp; path = src/vector3D.cpp; sourceTree = SOURCE_ROOT; };
+		818955102FCD4E2DBB5729D0 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = deps/glfw/src/posix_tls.c; sourceTree = SOURCE_ROOT; };
+		8201740F6A9F462389C471F2 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = src/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		8FDE9AC11C1440F8BFD95300 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/complex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = complex.cpp; path = src/complex.cpp; sourceTree = SOURCE_ROOT; };
+		91927DD5A19B450C91351AE1 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector4D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector4D.cpp; path = src/vector4D.cpp; sourceTree = SOURCE_ROOT; };
+		93D6D5558CCE4F23B6498C85 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = deps/glfw/src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		95EA99C6DDE94379B43DABBD /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix4x4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = matrix4x4.h; path = src/matrix4x4.h; sourceTree = SOURCE_ROOT; };
+		992910F9B78F4591AF51D3A7 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector2D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector2D.cpp; path = src/vector2D.cpp; sourceTree = SOURCE_ROOT; };
+		9B8A058882CE403B9C070396 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = deps/glfw/src/monitor.c; sourceTree = SOURCE_ROOT; };
+		A682F716D0DC46099D562329 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = deps/glew/src/glew.c; sourceTree = SOURCE_ROOT; };
+		A8AD41B549564B059874E4DE /* CGL */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCGL.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC84B9635A534BE5A0D7F07B /* glew */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglew.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C4BAF317604BBF99B19ADE /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B8706871BD9F4AF58DA37F25 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = deps/glfw/src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		BA60CA3F2C9746198C82372A /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = deps/glfw/src/window.c; sourceTree = SOURCE_ROOT; };
+		C18F3EC61FB948928B94B71D /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix3x3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matrix3x3.cpp; path = src/matrix3x3.cpp; sourceTree = SOURCE_ROOT; };
+		C6D9078F70AF464C94246D8C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/viewer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = viewer.h; path = src/viewer.h; sourceTree = SOURCE_ROOT; };
+		C99D0FC5A2EA4BBA9CD9C810 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = deps/glfw/src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		CE89590E307641B09F9526A0 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = deps/glfw/include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		D4960B516CF44CE781AA2816 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector3D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vector3D.h; path = src/vector3D.h; sourceTree = SOURCE_ROOT; };
+		D7AFFB5D60854F34910E57D1 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D4500F262A4A28A12E6045 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = deps/glfw/include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		E0DC323BDC574E97AF3329E8 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E3E94882E4D346ECAA34D512 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = deps/glfw/src/posix_tls.h; sourceTree = SOURCE_ROOT; };
+		E73E2E85E05D4A8CA875BA86 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/iokit_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iokit_joystick.h; path = deps/glfw/src/iokit_joystick.h; sourceTree = SOURCE_ROOT; };
+		E8F995BE067B4FCDA6B005CB /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = deps/glfw/src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		ED01E22D80EF461BBF33EB4B /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/tinyxml2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tinyxml2.h; path = src/tinyxml2.h; sourceTree = SOURCE_ROOT; };
+		EED7D1825AF64522B187557C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector2D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vector2D.h; path = src/vector2D.h; sourceTree = SOURCE_ROOT; };
+		FB39ABE570EB4A11BB868254 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = deps/glfw/src/init.c; sourceTree = SOURCE_ROOT; };
+		FC18046D3F264F659CB14A1E /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/quaternion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quaternion.cpp; path = src/quaternion.cpp; sourceTree = SOURCE_ROOT; };
+		FDF2A882185F4D718E4287CA /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/quaternion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quaternion.h; path = src/quaternion.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		04C2C0CCEA034175BE69C679 /* glew */ = {
+			isa = PBXGroup;
+			children = (
+				6DFD2442E0B54FA394633A0F /* Source Files */,
+				63BC1FE354A44EC191B12D6C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/CMakeLists.txt */,
+			);
+			name = glew;
+			sourceTree = "<group>";
+		};
+		108A31ED34384CB2BF8C988A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				93D6D5558CCE4F23B6498C85 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_init.m */,
+				E8F995BE067B4FCDA6B005CB /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_monitor.m */,
+				C99D0FC5A2EA4BBA9CD9C810 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_window.m */,
+				55983D3813A048299E68A35E /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/context.c */,
+				FB39ABE570EB4A11BB868254 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/init.c */,
+				4C02E290CFCA485994ED3CBF /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/input.c */,
+				2E7D2B2EBC1D43B9AFD4E8A6 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/iokit_joystick.m */,
+				03C2C2AF320F44FF80E21D61 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/mach_time.c */,
+				9B8A058882CE403B9C070396 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/monitor.c */,
+				B8706871BD9F4AF58DA37F25 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/nsgl_context.m */,
+				818955102FCD4E2DBB5729D0 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/posix_tls.c */,
+				BA60CA3F2C9746198C82372A /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		27BBC7C0A4664DC9A7E40EE9 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				108A31ED34384CB2BF8C988A /* Source Files */,
+				8EA94C3AFCB74079B721B1A4 /* Header Files */,
+				35FB2BC0ADFB4C2FB12024C0 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		53787A8489124DC99E3B90CA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E1AA64650BE2477F9DDD9D43 /* CMake Rules */,
+				B3C4BAF317604BBF99B19ADE /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6DFD2442E0B54FA394633A0F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A682F716D0DC46099D562329 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/src/glew.c */,
+				1C8DFD2B48A14F54B7E04E52 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/src/glewinfo.c */,
+				4D6E1FAB58F841E4A73967AB /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/src/visualinfo.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8EA94C3AFCB74079B721B1A4 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8D4500F262A4A28A12E6045 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/include/GLFW/glfw3.h */,
+				CE89590E307641B09F9526A0 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/include/GLFW/glfw3native.h */,
+				0ACCE2897F214F3F85246484 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_platform.h */,
+				6B4E76EDBEFA4651B28BB9AF /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/internal.h */,
+				E73E2E85E05D4A8CA875BA86 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/iokit_joystick.h */,
+				015BB774DA9B44D7A929A996 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/nsgl_context.h */,
+				E3E94882E4D346ECAA34D512 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/posix_tls.h */,
+				4C2D51B36D0A4005BD233D8E /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw/src/glfw_config.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A731095FA9EA459A9BA9A1CD = {
+			isa = PBXGroup;
+			children = (
+				53787A8489124DC99E3B90CA /* ALL_BUILD */,
+				04C2C0CCEA034175BE69C679 /* glew */,
+				D2C91888A24F4C8184E7CAF5 /* uninstall */,
+				D3FD68E67A15463889F46869 /* GLFW3 */,
+				C37F1203A89140B8986A81A8 /* CGL */,
+				DC3A0856F0C34890AE4924ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEE7D09272904E24A8F4EF69 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C37F1203A89140B8986A81A8 /* CGL */ = {
+			isa = PBXGroup;
+			children = (
+				EDCD47A53CC0486E96BCE79D /* Source Files */,
+				EF86510DA9B6416D8EB7380A /* Header Files */,
+				E0DC323BDC574E97AF3329E8 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/CMakeLists.txt */,
+			);
+			name = CGL;
+			sourceTree = "<group>";
+		};
+		D2C91888A24F4C8184E7CAF5 /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				AEE7D09272904E24A8F4EF69 /* CMake Rules */,
+				3D52F176F0DA4E0E86291AC6 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		D3FD68E67A15463889F46869 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				27BBC7C0A4664DC9A7E40EE9 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		DC3A0856F0C34890AE4924ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8AD41B549564B059874E4DE /* CGL */,
+				AC84B9635A534BE5A0D7F07B /* glew */,
+				D7AFFB5D60854F34910E57D1 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1AA64650BE2477F9DDD9D43 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EDCD47A53CC0486E96BCE79D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D238AC04C1A4D038B671E9F /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/base64.cpp */,
+				79EDDCA4870949CE9D4218E7 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/color.cpp */,
+				8FDE9AC11C1440F8BFD95300 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/complex.cpp */,
+				C18F3EC61FB948928B94B71D /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix3x3.cpp */,
+				6C6CBC3C008D454D9698D914 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix4x4.cpp */,
+				7505E20C108043A28335138F /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdfont.cpp */,
+				4019CAB75AD04C0A8525E1DA /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdtext.cpp */,
+				FC18046D3F264F659CB14A1E /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/quaternion.cpp */,
+				8201740F6A9F462389C471F2 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/tinyxml2.cpp */,
+				992910F9B78F4591AF51D3A7 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector2D.cpp */,
+				7F5F50B7E79346F1B63E0133 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector3D.cpp */,
+				91927DD5A19B450C91351AE1 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector4D.cpp */,
+				29D9E6F2BAD643A4B4E29D35 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/viewer.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EF86510DA9B6416D8EB7380A /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				18EF3C72DD214D04957EB890 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/CGL.h */,
+				1220E9175A23496087F5B074 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/base64.h */,
+				148B2AA051B04A62824695D9 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/color.h */,
+				5A83BDD43DA646CF8E10283A /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/complex.h */,
+				5EDA294C30ED4687A6AB40B5 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix3x3.h */,
+				95EA99C6DDE94379B43DABBD /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix4x4.h */,
+				5E5D3514A5E747B795B18104 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdtext.h */,
+				FDF2A882185F4D718E4287CA /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/quaternion.h */,
+				79DC1721541E4281965C16DB /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/renderer.h */,
+				ED01E22D80EF461BBF33EB4B /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/tinyxml2.h */,
+				EED7D1825AF64522B187557C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector2D.h */,
+				D4960B516CF44CE781AA2816 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector3D.h */,
+				1874E6F69D124C66896220A6 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector4D.h */,
+				C6D9078F70AF464C94246D8C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/viewer.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C02BC232D04644BAF98324 /* glew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF49A00A1A254649BE0DEF8B /* Build configuration list for PBXNativeTarget "glew" */;
+			buildPhases = (
+				54E776A8458642A0A232774F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glew;
+			productName = glew;
+			productReference = AC84B9635A534BE5A0D7F07B /* glew */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9AB8B454E3B04684BDCA4480 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFE0B8D83BC4C038A0CD83A /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				E3D77B1A45D346EB9B4C9DFA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = D7AFFB5D60854F34910E57D1 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9DB8AD675CB14DCE813703D1 /* CGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C7EE10AB9B48B0A4F099C0 /* Build configuration list for PBXNativeTarget "CGL" */;
+			buildPhases = (
+				9CF04B72A54A4570B0EDA262 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466DF0BA38F146388470E984 /* PBXTargetDependency */,
+			);
+			name = CGL;
+			productName = CGL;
+			productReference = A8AD41B549564B059874E4DE /* CGL */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D548449C2CF74D19A738F8FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = D9AF942A11C144729B88902E /* Build configuration list for PBXProject "CGL" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				83BD9EE05C3445F3B40F869A /* Debug */,
+				7566785F9DED42F386CF4F27 /* Release */,
+				EFB015962BBE4B3B95DF7F86 /* MinSizeRel */,
+				14BCB27F697D4565AC5D26E4 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A731095FA9EA459A9BA9A1CD;
+			projectDirPath = ../../CGL;
+			projectRoot = "";
+			targets = (
+				86C663DC2D6B46A6AAED8B44 /* ALL_BUILD */,
+				9DB8AD675CB14DCE813703D1 /* CGL */,
+				A422801062694BE88604EBCE /* ZERO_CHECK */,
+				18C02BC232D04644BAF98324 /* glew */,
+				9AB8B454E3B04684BDCA4480 /* glfw */,
+				183A407C28684346B147334E /* install */,
+				741E40C5C1C44B2AAFDBA6F0 /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A0DA98A506340E4A79C8121 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL -f /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		30263F345932401B9DD9A096 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		363A3C0CB291417DB865BB6E /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL -f /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		3B13A926D50144C0B5E9E005 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL -f /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		6867731682C540C884A1E839 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6C96A88DC0C84400B18A00B9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A346C433895840C3B3183FB9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw -f /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		E4648063699F4F5B879B6895 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54E776A8458642A0A232774F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537CDEDCF69B4D8E8D61FA2C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/src/glew.c */,
+				F128CA0A45924FB3AE0A32F1 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/src/glewinfo.c */,
+				0A8B1F5AFA3B426788B8A923 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/src/visualinfo.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF04B72A54A4570B0EDA262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E637943BBC4A2194ECC8E6 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/base64.cpp */,
+				F2382F5F71644001B9951E5C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/color.cpp */,
+				0280B65BB6B4433789FF4514 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/complex.cpp */,
+				8F23DCA7D6FF41609ACF716E /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix3x3.cpp */,
+				DED699D42A2E4D6FABAD318D /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/matrix4x4.cpp */,
+				3955CF921DC348D4ABF9D54F /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdfont.cpp */,
+				2407D913A25E4CFFBD3F9E5C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdtext.cpp */,
+				28531F69CBB24AB6904D6005 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/quaternion.cpp */,
+				735871ECC24F426BB1F62FBE /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/tinyxml2.cpp */,
+				F6B2660217EF41B58C25A75E /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector2D.cpp */,
+				FCE19BE440654D98B8E143E0 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector3D.cpp */,
+				858D84A8672B4EB183EF9B67 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/vector4D.cpp */,
+				EC3325EF954D4A8DBC3B8CFA /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/viewer.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D77B1A45D346EB9B4C9DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D732BC6F454C06A925B7B2 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_init.m */,
+				B6827D38893F4781853EFB7C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_monitor.m */,
+				347BF94051FA412F93AE2962 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/cocoa_window.m */,
+				A6514440341147DB95A0003B /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/context.c */,
+				EF05FD4E8848465D9D8A466F /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/init.c */,
+				51E66BB678C24691B041A709 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/input.c */,
+				3D839DC9B05348E5ADE53CB6 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/iokit_joystick.m */,
+				211D8B92ED59452FBB77EE05 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/mach_time.c */,
+				9ECC3CB2D47247498CDFDE4F /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/monitor.c */,
+				14E9FCF3E9B7422A9DFB0B2C /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/nsgl_context.m */,
+				1FF289B0C530443393825A27 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/posix_tls.c */,
+				8046D01F118F42C1AD065761 /* /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19745BCBE79E44AFB085F79C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A422801062694BE88604EBCE /* ZERO_CHECK */;
+			targetProxy = 5705AA1D8CB248D4ACDA613A /* PBXContainerItemProxy */;
+		};
+		2B81DD1D37C84957A8B4E682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86C663DC2D6B46A6AAED8B44 /* ALL_BUILD */;
+			targetProxy = FC1A87B414DE42A5A70D8323 /* PBXContainerItemProxy */;
+		};
+		2E34FC7C42224E37AC59A162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DB8AD675CB14DCE813703D1 /* CGL */;
+			targetProxy = A560EAB1AA2141569881E97A /* PBXContainerItemProxy */;
+		};
+		466DF0BA38F146388470E984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C02BC232D04644BAF98324 /* glew */;
+			targetProxy = 3C4F4850654B4BAB889ECF48 /* PBXContainerItemProxy */;
+		};
+		AE343C3B9CD2427F955E449F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AB8B454E3B04684BDCA4480 /* glfw */;
+			targetProxy = A0C037C2E20C4BC280446135 /* PBXContainerItemProxy */;
+		};
+		DD8DD5E71E0B4D789D586CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C02BC232D04644BAF98324 /* glew */;
+			targetProxy = A7BDA7C14B924FC08E7CDD6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		031EEFA7963D431CAD94D2F8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		07828B291B7145B19B13236D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		19452899304746F1BCB276FF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src","/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "-fPIC -w   -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1AA5FDC769834B03A06C0292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/build";
+			};
+			name = Release;
+		};
+		1DED7200967444B198D6D026 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "-w  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		22A47E789C0643799CAB34BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "-w  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2307649E8376492EAA0C1326 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/build";
+			};
+			name = RelWithDebInfo;
+		};
+		2DE9E8824C974605994EEA18 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		36B262577A724ECFAA6B0B0F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include","/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/include",/usr/local/include/freetype2,"/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-Wno-constant-conversion  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3DE5527B13A74254A15DE2EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4A3B7DFBB2F745DCBD009035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4C60FC30270C4E659DAED588 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "-w  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5BDFDF59945A4A0FB73BD322 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src","/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "-fPIC -w   -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6E7C6EA6E3084578A617154B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include","/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/include",/usr/local/include/freetype2,"/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-Wno-constant-conversion  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7DEC91801DE943F28FF39923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8044B4C97811482FB8BEAF1B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/build";
+			};
+			name = MinSizeRel;
+		};
+		858DB951099A4F46AD08DC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "-w  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glew";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8624D35DCCE14D68A17FA314 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8C772486B935485984DA824E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AF5A09EA01DD4E289E611324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B3F7A32B414A4F3CAE2319D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BAF1A109593A45BE840D8FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include","/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/include",/usr/local/include/freetype2,"/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-Wno-constant-conversion  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BE3011D228B8480CAA454BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src","/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "-fPIC -w   -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C965941965264CCBB71C1D69 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D543EC557CA545778F719077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D7B253C488F94986BD74C89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include","/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glew/include",/usr/local/include/freetype2,"/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-Wno-constant-conversion  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DB154827ED16494185AB37CF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DDAE0661F69F470FA82F2331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EBAFE8C27F8A4FEEB5BA1D08 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EDDEC948053A4FA1AF06A644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/deps/glfw/src","/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "-fPIC -w   -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/deps/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F22C61E9332346499347AC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL/build";
+			};
+			name = Debug;
+		};
+		FE825F03300D4E0D9B28614D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/xcode/CGL";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0152CD47066442D0A7693656 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D543EC557CA545778F719077 /* Debug */,
+				7DEC91801DE943F28FF39923 /* Release */,
+				EBAFE8C27F8A4FEEB5BA1D08 /* MinSizeRel */,
+				C965941965264CCBB71C1D69 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		39426EA8337043909D8F2523 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE825F03300D4E0D9B28614D /* Debug */,
+				B3F7A32B414A4F3CAE2319D0 /* Release */,
+				2DE9E8824C974605994EEA18 /* MinSizeRel */,
+				8624D35DCCE14D68A17FA314 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4DFE0B8D83BC4C038A0CD83A /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDEC948053A4FA1AF06A644 /* Debug */,
+				BE3011D228B8480CAA454BAE /* Release */,
+				5BDFDF59945A4A0FB73BD322 /* MinSizeRel */,
+				19452899304746F1BCB276FF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80B4924C7AA04B55A96B757E /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE5527B13A74254A15DE2EF /* Debug */,
+				DDAE0661F69F470FA82F2331 /* Release */,
+				DB154827ED16494185AB37CF /* MinSizeRel */,
+				031EEFA7963D431CAD94D2F8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		99C7EE10AB9B48B0A4F099C0 /* Build configuration list for PBXNativeTarget "CGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF1A109593A45BE840D8FF5 /* Debug */,
+				D7B253C488F94986BD74C89F /* Release */,
+				6E7C6EA6E3084578A617154B /* MinSizeRel */,
+				36B262577A724ECFAA6B0B0F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B7606E004CCD4AFFAF33FBA2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5A09EA01DD4E289E611324 /* Debug */,
+				4A3B7DFBB2F745DCBD009035 /* Release */,
+				07828B291B7145B19B13236D /* MinSizeRel */,
+				8C772486B935485984DA824E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BF49A00A1A254649BE0DEF8B /* Build configuration list for PBXNativeTarget "glew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A47E789C0643799CAB34BA /* Debug */,
+				858DB951099A4F46AD08DC4A /* Release */,
+				4C60FC30270C4E659DAED588 /* MinSizeRel */,
+				1DED7200967444B198D6D026 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D9AF942A11C144729B88902E /* Build configuration list for PBXProject "CGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22C61E9332346499347AC51 /* Debug */,
+				1AA5FDC769834B03A06C0292 /* Release */,
+				8044B4C97811482FB8BEAF1B /* MinSizeRel */,
+				2307649E8376492EAA0C1326 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D548449C2CF74D19A738F8FA /* Project object */;
+}

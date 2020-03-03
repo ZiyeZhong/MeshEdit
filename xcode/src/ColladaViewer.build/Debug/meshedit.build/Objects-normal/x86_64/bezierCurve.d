@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/ziyezhong/Desktop/CS284/p2-meshedit-sp20-ZiyeZhong/src/bezierCurve.cpp \
+  /Users/ziyezhong/Desktop/CS284/p2-meshedit-sp20-ZiyeZhong/src/bezierCurve.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/CGL/CGL.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/CGL/vector2D.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/CGL/complex.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/CGL/vector3D.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/CGL/matrix3x3.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/CGL/vector4D.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/CGL/matrix4x4.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/CGL/quaternion.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/CGL/color.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/CGL/renderer.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/CGL/viewer.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/CGL/osdtext.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/GL/glew.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/GLFW/glfw3.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/CGL/base64.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/CGL/tinyxml2.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/CGL/misc.h

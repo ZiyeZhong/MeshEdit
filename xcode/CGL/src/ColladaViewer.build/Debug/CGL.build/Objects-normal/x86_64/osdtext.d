@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/ziyezhong/Desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdtext.cpp \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdtext.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/include/GL/glew.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/color.h \
+  /usr/local/include/freetype2/ft2build.h \
+  /usr/local/include/freetype2/freetype/config/ftheader.h \
+  /usr/local/include/freetype2/freetype/freetype.h \
+  /usr/local/include/freetype2/freetype/config/ftconfig.h \
+  /usr/local/include/freetype2/freetype/config/ftoption.h \
+  /usr/local/include/freetype2/freetype/config/ftstdlib.h \
+  /usr/local/include/freetype2/freetype/fttypes.h \
+  /usr/local/include/freetype2/freetype/ftsystem.h \
+  /usr/local/include/freetype2/freetype/ftimage.h \
+  /usr/local/include/freetype2/freetype/fterrors.h \
+  /usr/local/include/freetype2/freetype/ftmoderr.h \
+  /usr/local/include/freetype2/freetype/fterrdef.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/base64.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/console.h \
+  /Users/ziyezhong/desktop/CS284/p2-meshedit-sp20-ZiyeZhong/CGL/src/osdfont.cpp
